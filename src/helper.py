@@ -92,7 +92,7 @@ def call_llm(query: str, responses: list[str])->str:
                                           If the input query form customer is not clear then ask a follow up question.  
       '''}
      ]
-   response = client.chat.completions.create(model="llama3-8b-8192", messages=messages, temperature=0)
+   response = client.chat.completions.create(model=config.LLMA3_MODEL, messages=messages, temperature=0)
     
    return response.choices[0].message.content
    
