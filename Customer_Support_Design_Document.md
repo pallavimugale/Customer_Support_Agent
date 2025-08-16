@@ -19,7 +19,7 @@ Groq API – Processes context and generates intelligent responses.
 
 The diagram below models the logical components and their relationships:
 
-![alt text](image3.png)
+![alt text](Class_Dia.png)
 Class Overview
 
 User
@@ -59,7 +59,7 @@ get_response(query: str, context: str): str → Calls the LLM and returns an ans
 Description: Handles all communication with Groq API.
 
 4. Activity Flow
-![alt text](image-2.png)
+![alt text](Activity_Dia.png)
 
 User enters a query on the Streamlit app.
 
@@ -73,7 +73,7 @@ Response is returned to Streamlit and displayed to the user.
 
 5. Sequence of Interactions
 
-![alt text](image-1.png)
+![alt text](Sequence_Dia.png)
 
 User → StreamlitApp: Inputs query.
 

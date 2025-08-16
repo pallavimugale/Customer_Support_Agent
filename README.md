@@ -91,4 +91,4 @@ If not, navigate to the provided local URL (usually http://localhost:8501/) to a
 ```
 
 # IntelliServe App
-![alt text](image.png)
+![alt text](Output.png)
