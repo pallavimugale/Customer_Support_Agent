@@ -19,7 +19,7 @@ Groq API – Processes context and generates intelligent responses.
 
 The diagram below models the logical components and their relationships:
 
-![alt text](image.png)
+![alt text](image3.png)
 Class Overview
 
 User
